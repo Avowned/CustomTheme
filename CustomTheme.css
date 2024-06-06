@@ -51,8 +51,8 @@
 	--Super-Reaction-Animations: none;					/* flex = ON, none = OFF */
 	--User-Profile-Effects: flex;						/* flex = ON, none = OFF */
 	
-	--Home-Nitro-Button: none;							/* flex = ON, none = OFF */
-	--Home-Store-Button: none;							/* flex = ON, none = OFF */
+	--Home-Nitro-Button: flex;							/* flex = ON, none = OFF */
+	--Home-Store-Button: flex;							/* flex = ON, none = OFF */
 	--Home-Direct-Messages-Header: flex;				/* flex = ON, none = OFF */
 	--Home-Close-DM-Button: block;						/* block = ON, none = OFF */
 	--Friends-List-Searchbar: none;						/* flex = ON, none = OFF */
