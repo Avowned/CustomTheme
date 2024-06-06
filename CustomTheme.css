@@ -2153,14 +2153,14 @@
 /*.container_debb33 .button_ae40a4 {
 	width: 18px; (I edited this)
 	left: -3px;
-}*/
+}
 .container_debb33 .button__581d0 .contents__322f4 svg,
 .container_debb33 .button__581d0 .contents__322f4 .lottieIcon_c7076c {
 	transform: scale(0.85); 
 }
 .container_debb33 .button_ae40a4:hover {
 	background: transparent;
-}
+}*/
 /* Settings Buttons: Override Build */
 /*.container_debb33 .button_ae40a4 svg.hasBuildOverride__82784 {
 	left: 4px; (I edited this)
