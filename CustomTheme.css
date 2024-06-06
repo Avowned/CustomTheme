@@ -2151,7 +2151,7 @@
 }
 /* Mute, Deafen, Settings Buttons */
 /*.container_debb33 .button_ae40a4 {
-	width: 18px;
+	width: 18px; (I edited this)
 	left: -3px;
 }*/
 .container_debb33 .button__581d0 .contents__322f4 svg,
@@ -2162,9 +2162,9 @@
 	background: transparent;
 }
 /* Settings Buttons: Override Build */
-.container_debb33 .button_ae40a4 svg.hasBuildOverride__82784 {
-	left: 4px;
-}
+/*.container_debb33 .button_ae40a4 svg.hasBuildOverride__82784 {
+	left: 4px; (I edited this)
+}*/
 
 /* Avatar Speaking Status Border */
 .container_debb33 .avatarWrapper__500a6 .avatarSpeaking__747a1 {
