@@ -2013,7 +2013,8 @@
 /* New Status Picker User Popout: Account Switcher Sub Menu */
 #account.menu__088f7 .submenuPaddingContainer__5a97c .submenu_aed9ee[aria-activedescendant^="account-switch-account"] {
 	background-color: #1C1C1C !important;
-	border-radius: 0px 4px 4px 4px;
+	/* (Done by al_o_) */
+	border-radius: 4px 4px 4px 4px;
 }
 #account.menu__088f7 .submenuPaddingContainer__5a97c .submenu_aed9ee[aria-activedescendant^="account-switch-account"] .scroller__8f066 {
 	padding: 4px 8px !important;
@@ -2026,12 +2027,15 @@
 	margin-bottom: 2px;
 }
 #account.menu__088f7 .submenuPaddingContainer__5a97c .submenu_aed9ee[aria-activedescendant^="account-switch-account"] .item__183e8:hover {
-	background-color: var(--bd-blue) !important;
+	/* (Done by al_o_) */
+	background-color: #131313 !important;
 }
 #account.menu__088f7 .submenuPaddingContainer__5a97c .submenu_aed9ee[aria-activedescendant^="account-switch-account"] .item__183e8:not(:hover) .activeIcon_b2fa28[width="18"] path {
-	fill: var(--status-positive-background);
+	/* (Done by al_o_) */
+	fill: #000000;
 }
 #account.menu__088f7 .submenuPaddingContainer__5a97c .submenu_aed9ee[aria-activedescendant^="account-switch-account"] .item__183e8:not(:hover) .activeIcon_b2fa28[width="18"] circle {
+	/* (Done by al_o_) */
 	fill: #FFFFFF;
 }
 
@@ -2039,50 +2043,57 @@
 .userPopoutOuter__3884e .menu__088f7 .layer__6b5c3 {
 	margin-left: -8px;
 }
+/* (Done by al_o_) */
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] {
 	background-color: #1C1C1C !important;
-	border-radius: 0px 4px 4px 4px;
-	width: 190px;
+	border-radius: 4px 4px 4px 4px;
+	width: 180px;
+	height: 140px;
 }
+/* (Done by al_o_) */
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] .scroller__8f066 {
 	overflow: hidden !important;
 }
+/* (Done by al_o_) */
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] .item__183e8 {
 	margin: 0px;
+	margin-left: -25px;
 }
+/* (Done by al_o_) */
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] .separator__174fc {
 	display: none;
 }
 /* Change Online Status Popout: Simple Status Picker */
+/* (Done by al_o_) */
 #account.menu__088f7 .submenu_aed9ee[aria-activedescendant^="account-status-picker"] {
-	min-width: var(--User-Status-Popout-Width);
-	transform: translate(calc((var(--User-Status-Popout-Width)) * -1), 0px);
+	transform: translate(3px, 1%);
+	position: relative;
+	top: -10px;
 	transform-origin: top left;
-	border-radius: 0px;
+	border-radius: 5px;
 }
-#account.menu__088f7 .submenu_aed9ee[aria-activedescendant^="account-status-picker"] .scroller__8f066 {
-	display: flex;
-	justify-content: space-evenly;
-	background-color: #202020 !important;
-}
-#account.menu__088f7 .submenu_aed9ee[aria-activedescendant^="account-status-picker"] .status__8c19b,
+/* (Done by al_o_) */
+/*#account.menu__088f7 .submenu_aed9ee[aria-activedescendant^="account-status-picker"] .status__8c19b,*/
 #account.menu__088f7 .submenu_aed9ee[aria-activedescendant^="account-status-picker"] .description_d1e167,
 #account.menu__088f7 .labelContainer__4f869[id="account-status-picker"] .iconContainer__5d61c .caret_ce50ce {
 	display: none;
 }
+/* (Done by al_o_) */
 #account.menu__088f7 .submenu_aed9ee[aria-activedescendant^="account-status-picker"] .statusItem__24445 {
 	min-width: calc(var(--User-Status-Popout-Width) / 4);
 	max-width: 0px;
 	padding: 6px 0px 6px 35%;
 }
+/* (Done by al_o_) */
 #account.menu__088f7 .submenu_aed9ee[aria-activedescendant^="account-status-picker"] .statusItem__24445 svg {
-	height: 16px;
-	width: 16px;
+	height: 11px;
+	width: 11px;
 }
-#account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] [id="account-status-picker--online"]:hover,
+/* (Done by al_o_) */
+/*#account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] [id="account-status-picker--online"]:hover,
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] [id="account-status-picker--invisible"]:hover {
 	border-radius: 0px;
-}
+}*/
 
 /* Change Online Status: Icons */
 #account.menu__088f7 foreignObject[mask="url(#svg-mask-status-online)"] .status__1c26d {
@@ -2100,19 +2111,23 @@
 /* Change Online Status Popout: Background */
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] [id="account-status-picker--online"]:hover {
 	background-color: rgba(67,181,129,0.15) !important;
-	border-radius: 0px 4px 0px 0px;
+	/* (Done by al_o_) */
+	border-radius: 2px;
 }
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] [id="account-status-picker--idle"]:hover {
 	background-color: rgba(250,166,26,0.15) !important;
-	border-radius: 0px;
+	/* (Done by al_o_) */
+	border-radius: 2px;
 }
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] [id="account-status-picker--dnd"]:hover {
 	background-color: rgba(240,71,71,0.15) !important;
-	border-radius: 0px;
+	/* (Done by al_o_) */
+	border-radius: 2px;
 }
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] [id="account-status-picker--invisible"]:hover {
 	background-color: rgba(116,127,141,0.15) !important;
-	border-radius: 0px 0px 4px 4px;
+	/* (Done by al_o_) */
+	border-radius: 2px;
 }
 /* Change Online Status Popout: Text */
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] [id="account-status-picker--online"] .status-qmUf7L {
@@ -6498,10 +6513,11 @@ tooltipBrand__68214 .tooltipPointer_f7411c {
 .standardSidebarView__12528 .sidebar__02e8d {
 	padding: 16px 0px 16px 12px;
 }
+/* (Done by al_o_) */
 .standardSidebarView__12528 .sidebar__02e8d .side_b4b3f6 .item__48dda {
 	margin-bottom: 0px;
-	padding-top: 5.7px;
-	padding-bottom: 5.7px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 /* Settings Sidebar: Header Titles */
 .standardSidebarView__12528 .sidebar__02e8d .side_b4b3f6 .separator_d14fb1 {
@@ -6526,6 +6542,7 @@ tooltipBrand__68214 .tooltipPointer_f7411c {
 .standardSidebarView__12528 .contentColumnDefault__78de3 {
 	padding: 44px 20px 80px 40px;
 }
+/**/
 .standardSidebarView__12528 .contentColumn__5f80b,
 .standardSidebarView__12528 .customColumn__0b6a6,
 .standardSidebarView__12528 .content__5eeb2 {
@@ -6740,8 +6757,9 @@ tooltipBrand__68214 .tooltipPointer_f7411c {
 }
 
 /* Profiles Menu */
+/* (Done by al_o_) */
 .contentRegionShownSidebar__9d1b9 .contentColumnWide__146ec {
-	padding-top: 44px;
+	padding-top: 35px;
 }
 .contentRegionShownSidebar__9d1b9 .contentColumnWide__146ec .tabBarItem_c09345 {
 	padding-bottom: 8px;
@@ -6752,9 +6770,10 @@ tooltipBrand__68214 .tooltipPointer_f7411c {
 	border-color: #141414;
 }
 /* Profiles Menu: User Profile Customization: UserPopout Header & Body */
-.profileCustomizationPreview_a1502f {
+/* (Done by al_o_) */
+/*.profileCustomizationPreview_a1502f {
 	width: var(--User-Popout-Width);
-}
+}*/
 .profileCustomizationPreview_a1502f .userProfileInnerThemedNonPremium_ed9022 .section__62b44:first-child {
 	background-color: #191919;
 }
@@ -6774,22 +6793,25 @@ tooltipBrand__68214 .tooltipPointer_f7411c {
 .profileCustomizationPreview_a1502f .bannerNitroUpsell__27b64 .bannerNitroUpsellText_fac28e {
 	margin-left: 100px;
 }
+/* (Done by al_o_) */
 .profileCustomizationPreview_a1502f .divider_d6f39c {
-	display: none;
+	display: flex;
 }
-.profileCustomizationPreview_a1502f .wrapper__3ed10 {
+/* (Done by al_o_) */
+/*.profileCustomizationPreview_a1502f .wrapper__3ed10 {
 	--user-status-background: linear-gradient(#43B581 1px, rgba(67,181,121,0.15) 2px, rgba(67,181,121,0) 80%, transparent 75%);
 	border: 2px solid #43B581;
 	border-radius: 50%;
 	margin-top: -8px;
 	margin-left: -12px;
 	z-index: 99;
-}
-.profileCustomizationPreview_a1502f .wrapper__3ed10 .mask_d5067d,
+}*/
+/* (Done by al_o_) */
+/*.profileCustomizationPreview_a1502f .wrapper__3ed10 .mask_d5067d,
 .profileCustomizationPreview_a1502f .wrapper__3ed10.avatarUploaderInner__71578 {
 	width: 100px !important;
 	height: 100px !important;
-}
+}*/
 .profileCustomizationPreview_a1502f .wrapper__3ed10+div+.status_be3f03 {
 	display: none;
 }
@@ -6800,21 +6822,23 @@ tooltipBrand__68214 .tooltipPointer_f7411c {
 	left: calc((.52 - var(--decoration-to-avatar-ratio)/2)*150%) !important;
 }
 /* Profiles Menu: Server Profile Customization: Avatar */
-.profileCustomizationPreview_a1502f .imageUploaderIconWrapper__3d11a .imageUploaderInner_ecfc97 {
+/* (Done by al_o_) */
+/*.profileCustomizationPreview_a1502f .imageUploaderIconWrapper__3d11a .imageUploaderInner_ecfc97 {
 	height: 100px;
 	width: 100px;
 	top: -10px;
 	left: -14px;
 	border: 4px solid var(--profile-avatar-border-color);
-}
-.profileCustomizationPreview_a1502f .imageUploaderIconWrapper__3d11a .imageUploaderHint__3b483 {
+}*/
+/* (Done by al_o_) */
+/*.profileCustomizationPreview_a1502f .imageUploaderIconWrapper__3d11a .imageUploaderHint__3b483 {
 	left: -28px;
 	top: -20px;
 }
 .profileCustomizationPreview_a1502f .imageUploaderIconWrapper__3d11a .imageUploaderIcon__4b7d2 {
 	right: 16px;
 	top: -4px;
-}
+}*/
 .profileCustomizationPreview_a1502f .avatarUploaderNormal_d16dca .status_be3f03 {
 	top: 60px;
 	left: 60px;
