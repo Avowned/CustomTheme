@@ -263,13 +263,13 @@
 /* (Done by al_o_) */
 .wrapper__216eb .circleIconButton__05cf2[data-list-item-id="guildsnav___create-join-button"],
 .wrapper__216eb .circleIconButton__05cf2[data-list-item-id="guildsnav___guild-discover-button"] {
-	background-color: transparent;
+	background-color: #161616;
 	color: #d6d4d4;
 }
 .wrapper__216eb .circleIconButton__05cf2.selected_aded59:hover,
 .wrapper__216eb .circleIconButton__05cf2.selected_aded59 {
-	background-color: var(--info-positive-foreground);
-	color: #0E0E0E;
+	background-color: #000000;
+	color: #FFFFFF;
 }
 
 /* Connected Voice/Screen Sharing Server Badge & Mentioned Badge */
@@ -2184,7 +2184,8 @@
 	left: 4px;
 }
 
-/* Avatar Speaking Status Border */ /*(Done by al_o_)*/
+/* Avatar Speaking Status Border */ 
+/*(Done by al_o_)*/
 .container_debb33 .avatarWrapper__500a6 .avatarSpeaking__747a1 {
 	box-shadow: inset 0 0 0 2px var(--status-positive-background), inset 0 0 0 2.5px var(--background-primary);
 }
@@ -3135,7 +3136,7 @@
 .channelTextArea_c2094b {
 	background: var(--bg-overlay-1, var(--background-secondary-alt));
 	border-radius: 0px;
-	margin: 1px;
+	margin: 0px;
 }
 .channelTextArea_c2094b .scrollableContainer_ff917f,
 .channelTextArea__626ee .scrollableContainer_ff917f {
@@ -3149,7 +3150,8 @@
 	max-width: 94%;
 }
 .chat__52833 form {
-	padding: 0px;
+	/* (Done by al_o_) */
+	padding: 7px;
 }
 /* Chat Box Overflow Scrollbar */
 .channelTextArea_c2094b .scrollableContainer_ff917f::-webkit-scrollbar-thumb {
@@ -3434,7 +3436,7 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 /* (Done by al_o_) */
 .channelTextArea_c2094b .attachWrapper_d01704 {
 	position: absolute;
-	right: 1100px;
+	right: 1083px;
 	bottom: 14px;
 	z-index: 1;
 }
@@ -3479,7 +3481,7 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 /* User Is Typing Indicator */
 /* (Done by al_o_) */
 .typing__6fd1d {
-	margin: 0px 0px 37px -21px;
+	margin: 0px 0px 48px -13px;
 	height: 16px;
 	width: 90%;
 	font-size: 12px;
