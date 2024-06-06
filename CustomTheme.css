@@ -51,8 +51,8 @@
 	--Super-Reaction-Animations: none;					/* flex = ON, none = OFF */
 	--User-Profile-Effects: flex;						/* flex = ON, none = OFF */
 	
-	--Home-Nitro-Button: flex;							/* flex = ON, none = OFF */
-	--Home-Store-Button: flex;							/* flex = ON, none = OFF */
+	--Home-Nitro-Button: none;							/* flex = ON, none = OFF */
+	--Home-Store-Button: none;							/* flex = ON, none = OFF */
 	--Home-Direct-Messages-Header: flex;				/* flex = ON, none = OFF */
 	--Home-Close-DM-Button: block;						/* block = ON, none = OFF */
 	--Friends-List-Searchbar: none;						/* flex = ON, none = OFF */
@@ -2150,10 +2150,10 @@
 	font-weight: 600;
 }
 /* Mute, Deafen, Settings Buttons */
-.container_debb33 .button_ae40a4 {
+/*.container_debb33 .button_ae40a4 {
 	width: 18px;
 	left: -3px;
-}
+}*/
 .container_debb33 .button__581d0 .contents__322f4 svg,
 .container_debb33 .button__581d0 .contents__322f4 .lottieIcon_c7076c {
 	transform: scale(0.85); 
