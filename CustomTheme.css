@@ -1653,9 +1653,10 @@
 	display: var(--Home-Store-Button);
 }
 /* DM List */
+/* (Done by al_o_) */
 .privateChannels__9b518 [class^='scroller'] {
 	background-color: #161616;
-	margin: -8px 0px -8px -8px;
+	margin: -6px 0px -8px -10px;
 }
 .privateChannels__9b518 [class^='scroller']:hover {
 	margin-right: -8px;
@@ -1723,7 +1724,8 @@
 .privateChannels__9b518 .interactive__3e804:hover .muted__418d1 .avatar__7bd22,
 .privateChannels__9b518 .interactive__3e804:hover .muted__418d1 .name_f842e4,
 .privateChannels__9b518 .interactive__3e804:hover .muted__418d1 .subText__0b282 {
-	opacity: .8;
+	/* (Done by al_o_) */
+	opacity: .6;
 }
 .privateChannels__9b518 .channel__0aef5 .interactive__3e804 .linkButtonIcon_cff89e {
 	color: #E5E5E5;
@@ -1742,7 +1744,8 @@
 .privateChannels__9b518 .channel__0aef5:hover .closeButton__116c3 {
 	display: var(--Home-Close-DM-Button);
 	color: #FFFFFF;
-	padding-right: 0px;
+	/* (Done by al_o_) */
+	padding-right: 3px;
 	margin: 2px 2px 2px 0px;
 }
 
@@ -1759,7 +1762,7 @@
 .privateChannels__9b518 .searchBar__621ec .searchBarComponent__8f95f:hover {
 	background: var(--bg-overlay-3,#161616);
 }
-/* DM's Search Box Modal */
+/* DM's Search Box Modal (Find or start a convo box) */
 .quickswitcher_b5bb0a {
 	background-color: #161616;
 	box-shadow: none;
@@ -3128,16 +3131,18 @@
 }
 
 /* Chat Box Area (Padded Container Including The Input Box & Typing Indicator) */
+/* (Done by al_o_) */
 .channelTextArea_c2094b {
 	background: var(--bg-overlay-1, var(--background-secondary-alt));
 	border-radius: 0px;
-	margin: 0px;
+	margin: 1px;
 }
 .channelTextArea_c2094b .scrollableContainer_ff917f,
 .channelTextArea__626ee .scrollableContainer_ff917f {
 	background: var(--bg-overlay-1, var(--background-secondary-alt));
 	border-radius: 0px;
-	padding: 2px 2px 2px 4px;
+	/* (Done by al_o_) */
+	padding: 2px 2px 3px 32px;
 }
 .channelTextArea_c2094b .wrapper_a62503 .scrollableContainer_ff917f {
 	border-radius: 4px;
@@ -3369,9 +3374,10 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 	opacity: 1;
 }
 /* Emoji Menu Button */
+/* (Done by al_o_) */
 .channelTextArea_c2094b .emojiButton__176c8 {
 	height: 43px;
-	margin-right: 14px;
+	margin-right: 26px;
 	margin-left: 0px;
 	opacity: 0.3;
 }
@@ -3425,10 +3431,11 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 }
 
 /* Chat Upload/Attach File Button */
+/* (Done by al_o_) */
 .channelTextArea_c2094b .attachWrapper_d01704 {
 	position: absolute;
-	right: 0px;
-	bottom: 0px;
+	right: 1100px;
+	bottom: 14px;
 	z-index: 1;
 }
 .channelTextArea_c2094b .attachWrapper_d01704 .attachButton__56f98 {
@@ -3437,9 +3444,10 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 	padding: 0px;
 	margin: 0px;
 }
+/* (Done by al_o_) */
 .channelTextArea_c2094b .attachWrapper_d01704 .attachButton__56f98 svg {
-	width: 12px;
-	height: 12px;
+	width: 16px;
+	height: 16px;
 }
 .channelTextArea_c2094b .attachWrapper_d01704 .attachButton__56f98 .attachButtonInner__84c26 .attachButtonPlus_fd0021 {
 	fill: #CECECE;
@@ -3469,11 +3477,12 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 }
 
 /* User Is Typing Indicator */
+/* (Done by al_o_) */
 .typing__6fd1d {
-	margin: 0px 0px -1px -21px;
+	margin: 0px 0px 37px -21px;
 	height: 16px;
 	width: 90%;
-	font-size: 11px;
+	font-size: 12px;
 	pointer-events: none;
 }
 .typing__6fd1d strong {
@@ -3693,8 +3702,9 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 .systemMessage_fced96.cozyMessage__9f4fd.groupStart__7b93c {
 	min-height: 0rem;
 }
+/* (Done by al_o_) */
 .scrollerSpacer__6b1b6 {
-	height: 12px;
+	height: 16px;
 }
 /* Chat: Markup Formatting */
 .markup_a7e664 h1:first-child, 
@@ -3719,9 +3729,10 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 	font-size: 0.625rem !important;
 }
 /* Chat User Avatar */
+/* (Done by al_o_) */
 .cozy_f5c119 .avatar__08316 {
-	width: 2.1875rem !important;
-	height: 2.1875rem !important;
+	width: 2.2875rem !important;
+	height: 2.2875rem !important;
 	left: 0.5rem;
 	margin-top: 3px;
 }
@@ -3730,9 +3741,10 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 	transform: scale(1.07);
 }
 /* Chat User Avatar: Nitro Decoration */
+/* (Done by al_o_) */
 .cozy_f5c119 .avatar__08316+.avatarDecoration__8a0c2 {
-	width: 2.775rem;
-	height: 2.775rem;
+	width: 2.875rem;
+	height: 2.875rem;
 	left: calc(27px - 40px*var(--decoration-to-avatar-ratio)/2);
 	margin-top: calc(22px - 40px*var(--decoration-to-avatar-ratio)/2);
 }
