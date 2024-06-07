@@ -2057,7 +2057,7 @@
 /* (Done by al_o_) */
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] .item__183e8 {
 	margin: 0px;
-	margin-left: -25px;
+	margin-left: -75px;
 }
 /* (Done by al_o_) */
 #account.menu__088f7 .submenuPaddingContainer__5a97c [aria-activedescendant^="account-status-picker"] .separator__174fc {
@@ -2066,10 +2066,10 @@
 /* Change Online Status Popout: Simple Status Picker */
 /* (Done by al_o_) */
 #account.menu__088f7 .submenu_aed9ee[aria-activedescendant^="account-status-picker"] {
-	transform: translate(3px, 1%);
+	transform: translate(-1px, 6.7%);
 	position: relative;
 	top: -10px;
-	transform-origin: top left;
+	transform-origin: top ;
 	border-radius: 5px;
 }
 /* (Done by al_o_) */
@@ -6386,11 +6386,12 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 .menu__088f7 .scroller__8f066 {
 	padding: 6px 8px;
 }
-.menu__088f7,
+/* (Done by al_o_) */
+/*.menu__088f7,
 .submenu_aed9ee {
 	background-color: #202020;
 	min-width: 160px;
-}
+}*/
 .menu__088f7 .colorDefault_e361cf.focused_dcafb9,
 .menu__088f7 .colorDefault_e361cf:active:not(.hideInteraction__0b569) {
 	background-color: #1B1B1B;
@@ -6404,6 +6405,7 @@ form .wrapper__57349 .lookFilled__950dd.colorPrimary_ebe632:hover {
 .menu__088f7 .colorDanger__08c25.focused_dcafb9 .checkbox__378d3 {
 	color: #FFFFFF !important;
 }
+/* (Done by al_o_) */
 .menu__088f7 .labelContainer__4f869 {
 	padding: 0px 6px;
 	min-height: 27px;
